@@ -1,13 +1,23 @@
 {
-  "name": "MobileInsurance-Mocha",
+  "name": "mobileinsurance-mocha",
   "type": "module",
   "devDependencies": {
     "@testing-library/webdriverio": "^3.2.1",
+    "@wdio/appium-service": "^9.15.0",
     "@wdio/cli": "^9.15.0",
     "@wdio/local-runner": "^9.15.0",
     "@wdio/mocha-framework": "^9.15.0",
     "@wdio/spec-reporter": "^9.15.0",
-    "appium-uiautomator2-driver": "^4.2.3",
     "wdio-wait-for": "^3.1.0"
-  }
+  },
+  "version": "1.0.0",
+  "description": "Mobile Insurance Demo Test",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "FA Alghifari"
 }

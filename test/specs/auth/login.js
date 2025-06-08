@@ -9,5 +9,3 @@ describe('Login to application', () => {
         await expect(HomePage.getLoggedInName).toHaveText(expect.stringContaining('Logged in as'))
     })
 })
-
-
