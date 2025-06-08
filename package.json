@@ -19,5 +19,8 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "FA Alghifari"
+  "author": "FA Alghifari",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
 }
