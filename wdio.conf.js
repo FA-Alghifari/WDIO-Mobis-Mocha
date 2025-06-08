@@ -21,9 +21,7 @@ export const config = {
     capabilities: [{
         platformName: 'Android',
         'appium:automationName': 'UiAutomator2',
-        'appium:deviceName': 'emulator-5554',
         'appium:appPackage': 'silktest.insurancemobile',
-        // 'appium:app': 'D:/Coding/WDIO/MobileInsurance-Mocha/app/android/InsuranceMobile.apk',
         'appium:app': path.join(process.cwd(),'app/android/InsuranceMobile.apk'),
         'appium:noReset': false,
         'appium:dontStopAppOnReset': true
